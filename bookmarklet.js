@@ -12,7 +12,7 @@ javascript:(
         if(!loaded){
         fileRef = document.createElement("link");
         fileRef.rel = "stylesheet";
-        fileRef.href = "http://localhost/cas233w/week4/lab/wcag.css";
+        fileRef.href = "http://wcag.css";
         document.getElementsByTagName("head")[0].appendChild(fileRef);
 
         fileRef = document.createElement("script");
